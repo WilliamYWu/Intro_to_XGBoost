@@ -1,17 +1,3 @@
----
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.14.4
-  kernelspec:
-    display_name: Python 3
-    name: python3
----
-
-<!-- #region id="v_-BsdBDEC7J" -->
 # **Tutorial: All About XGBoost**
 
 Welcome! This tutorial will introduce the core code and features for the machine learning model: XGBoost. In particular, we will focus on introducing the XBGClassifier model derived from the xgboost library.
@@ -87,13 +73,9 @@ with open("requirements.txt", "w") as file:
   for package in packages:
     file.write(f"{package}\n")
 file.close()
-```
 
-```python id="yn7SMMG4DckR"
 !pip install -q -r "requirements.txt"
-```
 
-```python id="VWtbSD0gDj9g"
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
