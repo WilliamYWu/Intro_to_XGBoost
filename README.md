@@ -478,8 +478,9 @@ print(f"root_mean_squared_error:{rmse}")
 
 <!-- #region id="CbW3CqTBaYeU" -->
 ### Section 3.2.1 Breaking Down the Math Behind Objective Functions
-MSE Equation \\
-$$C = \frac{1}{N}\sum_{i=1}^{N}(\hat{y_i}-y_i)^2$$
+MSE Equation 
+
+$$C = \frac{1}{N}\sum_{i=1}^{N}(\hat{y_i}-y_i)^2 \tag{1}$$
 Please refer to slides for a more indepth derivative of this.
 <!-- #endregion -->
 
