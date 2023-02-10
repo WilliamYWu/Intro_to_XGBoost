@@ -352,7 +352,8 @@ print("Accuracy: %.2f%%" % (accuracy * 100.0))
 ```
 
 <!-- #region id="HU8GUYy8XSLa" -->
-##Section 3.2: Example 3 - Objective Functions
+
+## Section 3.2: Example 3 - Objective Functions
 The objective is also known as the loss function. Typically in machine learning the loss function is how we evaluate the training error. As a result, when we say that we aim to minimize the error, we are trying to minimize the loss function. 
 * List of the objectives used in xgboost: [All Provided Objectives](
 https://xgboost.readthedocs.io/en/latest/parameter.html#learning-task-parameters.)
@@ -476,7 +477,7 @@ print(f"root_mean_squared_error:{rmse}")
 ```
 
 <!-- #region id="CbW3CqTBaYeU" -->
-###Section 3.2.1 Breaking Down the Math Behind Objective Functions
+### Section 3.2.1 Breaking Down the Math Behind Objective Functions
 MSE Equation \\
 $$C = \frac{1}{N}\sum_{i=1}^{N}(\hat{y_i}-y_i)^2$$
 Please refer to slides for a more indepth derivative of this.
@@ -522,7 +523,7 @@ print(hessian[0:5])
 ```
 
 <!-- #region id="WtEmy1xa7uot" -->
-##Section 3.3: Other Parameters - Learning Rate, Tree Depth, Number of Trees, Gamma and Lambda
+## Section 3.3: Other Parameters - Learning Rate, Tree Depth, Number of Trees, Gamma and Lambda
 
 * **learning_rate**
     * We also call it eta.
