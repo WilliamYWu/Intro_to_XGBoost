@@ -73,9 +73,11 @@ with open("requirements.txt", "w") as file:
   for package in packages:
     file.write(f"{package}\n")
 file.close()
-
+```
+```
 !pip install -q -r "requirements.txt"
-
+```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
